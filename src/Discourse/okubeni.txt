@@ -1,0 +1,8 @@
+
+KOD ORGANİZASYONU
+
+- 3rd party referanslar istenmediği için Excel okuma operasyonları dışarıda bırakıldı.
+
+MODEL NOTLAR
+- Tek doğru şıkkı olan soru tipleri var. Onlarda correct olarak sayılıyor. O soru tipi sırayı bozan cümleyi bulunuz diyor.
+- TextChallenge.xml'in yeni versiyonu soruların yanlış cevapları ile birlikte tekrar alınacak.
