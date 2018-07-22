@@ -10,6 +10,10 @@ public class Sentences {
         this.tokens=new Tokens();
     }
 
+    public Sentences(String text) {
+        this.text = text;
+    }
+
     public String getText() {
         return text;
     }
