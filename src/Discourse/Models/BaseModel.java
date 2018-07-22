@@ -1,6 +1,6 @@
-package TestChallenge.Discourse.Models;
+package Discourse.Models;
 
-import TestChallenge.Discourse.ParseXML.QT8;
+import Discourse.ParseXML.QT8;
 import java.util.ArrayList;
 
 public abstract class BaseModel {

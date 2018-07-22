@@ -1,4 +1,4 @@
-package TestChallenge.Discourse.ParseXML;
+package Discourse.ParseXML;
 
 import java.io.File;
 import java.io.IOException;

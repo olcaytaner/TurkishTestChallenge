@@ -35,7 +35,7 @@ public class ModelMain {
                 float sim = model.CalculateSimilarity(pair.getKey(),pair.getValue());
                 results.append(i + ": ");
                 results.append(pair.getKey().toString() + " ==? " + pair.getValue().toString());
-                results.append(" | " + model.getModelName());
+                results.append(" | " + model.GetModelName());
                 results.append(" | " + sim);
                 results.append("\n");
             }

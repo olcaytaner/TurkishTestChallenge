@@ -1,6 +1,6 @@
-package TestChallenge.Discourse.Evaluation;
+package Discourse.Evaluation;
 
-import TestChallenge.Discourse.ParseXML.QT8;
+import Discourse.ParseXML.QT8;
 
 import java.io.File;
 import java.io.FileNotFoundException;

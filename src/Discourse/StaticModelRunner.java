@@ -1,4 +1,4 @@
-package TestChallenge.Discourse;
+package Discourse;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,10 +6,10 @@ import java.util.ArrayList;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-import TestChallenge.Discourse.Evaluation.Metrics;
-import TestChallenge.Discourse.Models.StaticModel;
-import TestChallenge.Discourse.ParseXML.QT8;
-import TestChallenge.Discourse.ParseXML.XMLParser;
+import Discourse.Evaluation.Metrics;
+import Discourse.Models.StaticModel;
+import Discourse.ParseXML.QT8;
+import Discourse.ParseXML.XMLParser;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 

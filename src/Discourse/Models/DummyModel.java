@@ -1,7 +1,7 @@
-package TestChallenge.Discourse.Models;
+package Discourse.Models;
 
-import TestChallenge.Discourse.Evaluation.Metrics;
-import TestChallenge.Discourse.ParseXML.QT8;
+import Discourse.Evaluation.Metrics;
+import Discourse.ParseXML.QT8;
 
 import java.util.ArrayList;
 import java.util.Collections;

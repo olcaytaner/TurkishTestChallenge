@@ -12,27 +12,22 @@ import java.util.ArrayList;
  */
 public class SentenceSimilarityModel {
 
-    public SentenceSimilarity similarityAlgorithm;
-    public Segmenter segmenter;
-    public String getModelName(){
-        return similarityAlgorithm.getClass().getSimpleName() + "-" + segmenter.getClass().getSimpleName();
+    public SentenceSimilarity SimilarityAlgorithm;
+    public Segmenter Segmenter;
+    public String GetModelName(){
+        return SimilarityAlgorithm.getClass().getSimpleName() + "-" + Segmenter.getClass().getSimpleName();
     }
 
     public SentenceSimilarityModel(SentenceSimilarity similarityAlgorithm, Segmenter segmenter) {
-        if (similarityAlgorithm == null){
-            throw new NullPointerException("SimilarityAlgorithm should not be null.");
-        }
-        if (segmenter == null){
-            throw new NullPointerException("Segmenter should not be null.");
-        }
-        this.similarityAlgorithm = similarityAlgorithm;
-        this.segmenter = segmenter;
+        if(similarityAlgorithm== null) throw new NullPointerException("similarityAlgorithm should not be null.");
+        if(segmenter == null) throw new NullPointerException("segmenter should not be null.");
+        SimilarityAlgorithm = similarityAlgorithm;
+        Segmenter = segmenter;
     }
 
     public float CalculateSimilarity(Sentence s1, Sentence s2){
-        ArrayList<String> s1Units = segmenter.segment(s1);
-        ArrayList<String> s2Units = segmenter.segment(s2);
-        return similarityAlgorithm.similarityScore(s1Units,s2Units);
+        ArrayList<String> s1Units = Segmenter.segment(s1);
+        ArrayList<String> s2Units = Segmenter.segment(s2);
+        return SimilarityAlgorithm.similarityScore(s1Units,s2Units);
     }
-
 }

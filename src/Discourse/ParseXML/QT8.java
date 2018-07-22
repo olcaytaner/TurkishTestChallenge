@@ -1,4 +1,4 @@
-package TestChallenge.Discourse.ParseXML;
+package Discourse.ParseXML;
 
 // Class for QT8 excel.
 public class QT8 {
