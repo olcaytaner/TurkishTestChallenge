@@ -1,10 +1,12 @@
 package Similarity.Model;
 
 
+import java.io.Serializable;
+
 /**
  * Created by gokhan on 22.07.2018.
  */
-public class SentenceSimilarityPair {
+public class SentenceSimilarityPair implements Serializable {
 
     public SentenceSimilarityPair() {
     }
