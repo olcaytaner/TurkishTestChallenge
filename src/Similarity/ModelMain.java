@@ -29,7 +29,7 @@ public class ModelMain {
         Segmenter segmenter = (Segmenter) Class.forName(segmenterClassName).newInstance();
         SentenceSimilarityModel model = new SentenceSimilarityModel(similarity,segmenter);
         SimilarityChallengeResult result = similarityService.ChallengeSimilarity(model,questionID);
-        return result;      //TODO: Return that obj as a model for the view. (mvc framework spesific.)
+        return result;      //TODO: Return that obj as a model for the view. (mvc framework specific.)
     }
 
     public static void main(String[] args) throws IllegalAccessException, InstantiationException, ClassNotFoundException {
