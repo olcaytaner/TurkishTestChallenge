@@ -34,11 +34,6 @@
             <artifactId>Corpus</artifactId>
             <version>1.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>NlpToolkit</groupId>
-            <artifactId>Dictionary</artifactId>
-            <version>1.0.1</version>
-        </dependency>
     </dependencies>
 
     <distributionManagement>
