@@ -205,3 +205,9 @@ target/apidocs/Similarity/WordNet/SentenceLevelSimilarity.html
 target/apidocs/Similarity/WordNet/class-use/SentenceLevelSimilarity.html
 target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml
 target/javadoc-bundle-options/package-list
+.idea/libraries/Maven__NlpToolkit_Corpus_1_0_0.xml
+.idea/libraries/Maven__NlpToolkit_Dictionary_1_0_2.xml
+.idea/libraries/Maven__NlpToolkit_Math_1_0_0.xml
+.idea/libraries/Maven__NlpToolkit_MorphologicalAnalysis_1_0_2.xml
+.idea/libraries/Maven__NlpToolkit_WordNet_1_0_1.xml
+out/artifacts/TestChallenge_jar/TestChallenge.jar
