@@ -211,3 +211,14 @@ target/javadoc-bundle-options/package-list
 .idea/libraries/Maven__NlpToolkit_MorphologicalAnalysis_1_0_2.xml
 .idea/libraries/Maven__NlpToolkit_WordNet_1_0_1.xml
 out/artifacts/TestChallenge_jar/TestChallenge.jar
+.idea/libraries/Maven__io_github_starlangsoftware_Corpus_1_0_1.xml
+.idea/libraries/Maven__io_github_starlangsoftware_DataStructure_1_0_2.xml
+.idea/libraries/Maven__io_github_starlangsoftware_Dictionary_1_0_12.xml
+.idea/libraries/Maven__io_github_starlangsoftware_Math_1_0_2.xml
+.idea/libraries/Maven__io_github_starlangsoftware_MorphologicalAnalysis_1_0_15.xml
+.idea/libraries/Maven__io_github_starlangsoftware_NGram_1_0_5.xml
+.idea/libraries/Maven__io_github_starlangsoftware_Sampling_1_0_0.xml
+.idea/libraries/Maven__io_github_starlangsoftware_WordNet_1_0_27.xml
+.idea/libraries/Maven__javax_xml_parsers_jaxp_api_1_4_5.xml
+.idea/jarRepositories.xml
+.idea/artifacts/TestChallenge_jar.xml
